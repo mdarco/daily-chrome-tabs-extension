@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Darco's daily tabs opener",
+  "version": "1.0.0",
+  "description": "Opens Darco's daily Chrome tabs",
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "open-tabs.png"
+  },
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}
